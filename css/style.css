@@ -11,25 +11,21 @@ body{
     padding:5px;
 }
 .popup_menu {
-    width:100px;
+    display: block;
+    width:200px;
     list-style-type: none;
     border:1px;
+    margin: auto;
 }
 
-.popup_menu a{
-    display:block;
-    width:100px;
-    overflow:hidden;
-    height:20px;
-    line-height:20px;
-    text-decoration:none;
-    color: #000;
-}
-.popup_menu a span {
+
+.popup_menu button {
     display:inline-block;
-    width:20px;
+    width:90%;
+    margin: auto;
 }
-.popup_menu a:hover {
+.popup_menu button:hover {
     color:yellow;
-    background-color:light blue;
+    font-weight: bold;
+    background-color:blue;
 }
